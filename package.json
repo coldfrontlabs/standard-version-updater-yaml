@@ -1,0 +1,24 @@
+{
+  "name": "standard-version-updater-yaml",
+  "version": "1.0.0",
+  "description": "A YAML updater for standard-version.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coldfrontlabs/standard-version-updater-yaml.git"
+  },
+  "keywords": [
+    "standard-version",
+    "updater",
+    "yaml"
+  ],
+  "author": "Coldfront Labs Inc.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/coldfrontlabs/standard-version-updater-yaml/issues"
+  },
+  "homepage": "https://github.com/coldfrontlabs/standard-version-updater-yaml#readme"
+}
