@@ -45,6 +45,25 @@ module.exports = {
 };
 ```
 
+## YAML structure
+
+This updater will only update a root `version` tag inside of a YAML file.
+
+### Correct structure ✔
+
+```yml
+name: My package
+version: 1.0.0
+```
+
+### Incorrect structure ❌
+
+```yml
+package:
+  name: My package
+  version: 1.0.0
+```
+
 ## Versioning
 
 This project uses Semantic Versioning 2.0.0 to keep track of releases.
