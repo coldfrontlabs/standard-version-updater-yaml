@@ -1,5 +1,9 @@
 # standard-version-updater-yaml
 
+[![Latest release](https://img.shields.io/github/v/release/coldfrontlabs/standard-version-updater-yaml?include_prereleases&style=for-the-badge)](https://github.com/coldfrontlabs/standard-version-updater-yaml/releases)
+[![License](https://img.shields.io/github/license/coldfrontlabs/standard-version-updater-yaml?style=for-the-badge)](/LICENSE)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg?style=for-the-badge)](https://conventionalcommits.org)
+
 A YAML updater for [standard-version](https://github.com/conventional-changelog/standard-version).
 
 ## Installation
