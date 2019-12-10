@@ -4,7 +4,7 @@
   "description": "A YAML updater for standard-version.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "commit": "npx git cz"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
+    "commitizen": "^4.0.3",
     "husky": "^3.1.0"
   }
 }
