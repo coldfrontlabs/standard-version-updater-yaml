@@ -6,7 +6,9 @@
   "scripts": {
     "commit": "npx git cz",
     "lint": "npx eslint --ext .js --ignore-path .gitignore .",
-    "fix": "npm run lint -- --fix"
+    "fix": "npm run lint -- --fix",
+    "prerelease": "npm run lint",
+    "release": "npx standard-version"
   },
   "repository": {
     "type": "git",
@@ -37,6 +39,10 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "husky": "^3.1.0",
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "standard-version": "^7.1.0"
+  },
+  "peerDependencies": {
+    "standard-version": "^7.1.0"
   }
 }
