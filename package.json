@@ -44,5 +44,8 @@
   },
   "peerDependencies": {
     "standard-version": "^7.1.0"
+  },
+  "dependencies": {
+    "yaml": "^1.7.2"
   }
 }
