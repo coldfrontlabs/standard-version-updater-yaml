@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A YAML updater for standard-version.",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "commit": "npx git cz",
     "lint": "npx eslint --ext .js --ignore-path .gitignore .",
