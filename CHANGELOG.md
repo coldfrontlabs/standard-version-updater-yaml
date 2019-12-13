@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/coldfrontlabs/standard-version-updater-yaml/compare/v1.0.0...v1.0.1) (2019-12-13)
+
+
+### Build System
+
+* **npm:** disallow .files from being packaged ([f2c6c0b](https://github.com/coldfrontlabs/standard-version-updater-yaml/commit/f2c6c0b37a8d3465dc3059ca93b1361201d27545))
+
+
+### Documentation
+
+* **general:** update example of usage to not cause a warning ([6e639a0](https://github.com/coldfrontlabs/standard-version-updater-yaml/commit/6e639a050a5c80e8602738c974f05bb94c78f3cb))
+
 ## 1.0.0 (2019-12-10)
 
 
