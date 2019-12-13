@@ -18,7 +18,7 @@ npm install standard-version-updater-yaml
 In your `.versionrc.js` file:
 
 ```jsx
-const standardVersionUpdaterYaml = require("standard-version-updater-yaml");
+const standardVersionUpdaterYaml = require.resolve("standard-version-updater-yaml");
 
 module.exports = {
   ...,
@@ -39,7 +39,7 @@ module.exports = {
   bumpFiles: [
     {
       filename: "file.yml",
-      updater: require("standard-version-updater-yaml")
+      updater: require.resolve("standard-version-updater-yaml")
     }
   ]
 };
