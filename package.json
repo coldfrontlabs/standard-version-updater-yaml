@@ -43,10 +43,10 @@
     "eslint-plugin-standard": "^4.0.1",
     "husky": "^3.1.0",
     "prettier": "^1.19.1",
-    "standard-version": "^7.1.0"
+    "standard-version": "^8.0.1"
   },
   "peerDependencies": {
-    "standard-version": "^7.1.0"
+    "standard-version": "^8.0.1"
   },
   "dependencies": {
     "yaml": "^1.7.2"
