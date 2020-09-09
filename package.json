@@ -1,6 +1,6 @@
 {
   "name": "standard-version-updater-yaml",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A YAML updater for standard-version.",
   "main": "index.js",
   "files": [

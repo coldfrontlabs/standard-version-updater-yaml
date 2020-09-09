@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.2](https://github.com/coldfrontlabs/standard-version-updater-yaml/compare/v1.0.1...v1.0.2) (2020-09-09)
+
+
+### Build System
+
+* **deps-dev:** bump standard-version from 7.1.0 to 8.0.1 ([cb147df](https://github.com/coldfrontlabs/standard-version-updater-yaml/commit/cb147df0259e758ee7497a80632e2127ec2a6884))
+* **npm:** apply security updates ([19442f2](https://github.com/coldfrontlabs/standard-version-updater-yaml/commit/19442f23258c42a08833ff6b97f85d8636cbb858))
+
 ### [1.0.1](https://github.com/coldfrontlabs/standard-version-updater-yaml/compare/v1.0.0...v1.0.1) (2019-12-13)
 
 
