@@ -29,26 +29,26 @@
   },
   "homepage": "https://github.com/coldfrontlabs/standard-version-updater-yaml#readme",
   "devDependencies": {
-    "@commitlint/cli": "^8.2.0",
-    "@commitlint/config-conventional": "^8.2.0",
-    "commitizen": "^4.0.3",
-    "eslint": "^6.7.2",
-    "eslint-config-prettier": "^6.7.0",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.19.1",
-    "eslint-plugin-jsdoc": "^18.4.3",
-    "eslint-plugin-node": "^10.0.0",
-    "eslint-plugin-prettier": "^3.1.1",
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "commitizen": "^4.2.1",
+    "eslint": "^7.8.1",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsdoc": "^30.4.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "husky": "^3.1.0",
-    "prettier": "^1.19.1",
-    "standard-version": "^8.0.1"
+    "husky": "^4.3.0",
+    "prettier": "^2.1.1",
+    "standard-version": "^9.0.0"
   },
   "peerDependencies": {
-    "standard-version": "^8.0.1"
+    "standard-version": "^9.0.0"
   },
   "dependencies": {
-    "yaml": "^1.7.2"
+    "yaml": "^1.10.0"
   }
 }
