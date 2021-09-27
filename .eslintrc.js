@@ -4,12 +4,8 @@ module.exports = {
     es6: true,
     node: true,
   },
-  extends: [
-    "standard",
-    "plugin:jsdoc/recommended",
-    "plugin:prettier/recommended",
-  ],
-  plugins: ["prettier", "jsdoc"],
+  extends: ["standard", "plugin:jsdoc/recommended", "prettier"],
+  plugins: ["jsdoc"],
   globals: {
     Atomics: "readonly",
     SharedArrayBuffer: "readonly",
@@ -17,7 +13,6 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2018,
   },
-  rules: {
-    "prettier/prettier": "error",
-  },
+  ignorePatterns: ["!.*.js"],
+  rules: {},
 };
