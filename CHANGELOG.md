@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.3](https://github.com/coldfrontlabs/standard-version-updater-yaml/compare/v1.0.2...v1.0.3) (2021-09-27)
+
+
+### Build System
+
+* **npm:** update dependencies and build config ([8df1f52](https://github.com/coldfrontlabs/standard-version-updater-yaml/commit/8df1f52adee546fb67d03f6d219701d53135eeaa))
+
 ### [1.0.2](https://github.com/coldfrontlabs/standard-version-updater-yaml/compare/v1.0.1...v1.0.2) (2020-09-09)
 
 
