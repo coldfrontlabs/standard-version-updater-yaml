@@ -8,9 +8,9 @@
   ],
   "scripts": {
     "commit": "git cz",
-    "lint": "npm run eslint && npm run prettier",
-    "eslint": "eslint --ext .js --fix --ignore-path .gitignore .",
-    "prettier": "prettier '**/*.js' --write --ignore-path .gitignore",
+    "lint": "npm run eslint -- --fix && npm run prettier -- --write",
+    "eslint": "eslint --ext .js --ignore-path .gitignore .",
+    "prettier": "prettier '**/*.js' --ignore-path .gitignore",
     "prerelease": "npm run lint",
     "release": "git add index.js && standard-version -a",
     "prepare": "husky install"
@@ -31,8 +31,8 @@
   },
   "homepage": "https://github.com/coldfrontlabs/standard-version-updater-yaml#readme",
   "devDependencies": {
-    "@commitlint/cli": "^13.1.0",
-    "@commitlint/config-conventional": "^13.1.0",
+    "@commitlint/cli": "^16.2.1",
+    "@commitlint/config-conventional": "^16.2.1",
     "commitizen": "^4.2.3",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.32.0",
@@ -43,7 +43,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "husky": "^7.0.2",
-    "lint-staged": "^11.1.2",
+    "lint-staged": "^12.3.4",
     "prettier": "^2.2.1",
     "standard-version": "^9.0.0"
   },
