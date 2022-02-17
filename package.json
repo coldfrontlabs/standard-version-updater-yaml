@@ -39,7 +39,7 @@
     "eslint-config-prettier": "^8.1.0",
     "eslint-config-standard": "^16.0.2",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsdoc": "^36.1.0",
+    "eslint-plugin-jsdoc": "^37.9.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^5.1.0",
     "husky": "^7.0.2",
