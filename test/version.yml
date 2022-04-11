@@ -1,0 +1,3 @@
+name: standard-version-updater-yaml
+description: This file exists to make sure yaml files actually get updated.
+version: 1.0.3
