@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/coldfrontlabs/standard-version-updater-yaml#readme",
   "devDependencies": {
-    "@commitlint/cli": "^17.0.0",
+    "@commitlint/cli": "^18.0.0",
     "@commitlint/config-conventional": "^17.0.0",
     "commitizen": "^4.2.3",
     "cz-conventional-changelog": "^3.3.0",
